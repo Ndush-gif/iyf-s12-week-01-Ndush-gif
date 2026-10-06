@@ -1,17 +1,44 @@
-# Task 1.2: DevTools Exploration
+# Week 1: Web Foundations
 
-## Website 1: Example Domain (https://example.com)
-- *What HTML tags are used on the page? `<html>`, `<head>`, `<body>`, `<div>`,`<h1>`, and `<p>`.
-- *What is the page title? Example Domain *(found inside the `<head>` tag)*.
-- *How many headings are there? 1 heading (`<h1>`).
+## Author
+- **Name:** Catherine Nduku
+- **GitHub:** [@Ndush-gif]([(https://github.com/Ndush-gif))
+- **Date:** October 3, 2026
 
-## Website 2: MDN Web Docs (https://mozilla.org)
-- *Find the navigation menu - what tag is it wrapped in? It is wrapped in a `<nav>` element.
-- *How is the search bar structured? It is built using a custom element called `<mdn-search-modal>`.
-- *What happens when you hover over links? The links change text color (to blue/violet) and display an underline via their CSS hover rules.
+## Project Description
+A personal "About Me"  webpage built with HTML. It intoduces me, shows a photo placeholder, states my hobies, provides a link to favorite website and my contact email. I also explored development tools (see `devTools exporolation.md`) and a link to my deployed webpage.
 
-## Website 3: YouTube (https://youtube.com)
-- *Identify 5 different HTML elements: `<html>`, `<head>`, `<body>`, `<div>`, and `<script>`.
-- *Find a form element and list its inputs: The main video search area uses a `<form id="search-form">` action element containing a primary search box input: `<input id="search" type="text" placeholder="Search">`.
-- *Take a screenshot of the Elements panel
-<img width="667" height="908" alt="Screenshot 2026-09-25 200221" src="https://github.com/user-attachments/assets/1242c6d0-8afa-4e97-8f9f-05c64f853d32" />
+## Technologies Used
+- HTML
+- Git and Github
+- VS Code
+- Github pages
+
+## Features
+- Main heading and an introductory paragraph
+- Aplaceholder photo
+- List of my hobbies
+- A link to my favorite website
+- A clickable `malto:` contact link
+
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
+   
+
+## Lessons Learned
+- Learned how to create webpages.
+- Learned how to link my github account with VS Code.
+- Learned how to use a live server.
+- Learned how to psh my repositories from VS Code to Github.
+- 
+## Challenges Faced
+- Forgeting to add spaces especially after a - on README.
+- I had problems on uploading images and screenshots so I had to reread the notes and google.
+- Understanding the tasks and doing what is needed has been a bit challenging.
+
+## Screenshots (optional)
+![VS Code extensions](https://github.com/Ndush-gif/iyf-s12-week-01-Ndush-gif/blob/main/vscode-extensons.JPG))
+
+ ## Live demo
+ [ndush-gif.github.io](https://ndush-gif.github.io/iyf-s12-week-01-Ndush-gif/)
