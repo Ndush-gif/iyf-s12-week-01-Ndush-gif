@@ -1,0 +1,24 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color:#1a4f8b;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    text-decoration: underline;
+}
+
+nav a[aria-current="page"] {
+    background: #1a4f8b;
+    color: #aba5a5;
+    font-weight: bold;
+}
