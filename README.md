@@ -38,7 +38,7 @@ A personal "About Me"  webpage built with HTML. It intoduces me, shows a photo p
 - Understanding the tasks and doing what is needed has been a bit challenging.
 
 ## Screenshots (optional)
-![VS Code extensions]([https://github.com/Ndush-gif/iyf-s12-week-01-Ndush-gif/blob/main/vscode-extensons.JPG](https://github.com/Ndush-gif/iyf-s12-week-01-Ndush-gif/blob/main/images/Screenshots/vscode-extensons.JPG))
+![VS Code extensions](https://github.com/Ndush-gif/iyf-s12-week-01-Ndush-gif/blob/main/images/Screenshots/vscode-extensons.JPG)
 
  ## Live demo
  [ndush-gif.github.io](https://ndush-gif.github.io/iyf-s12-week-01-Ndush-gif/)
