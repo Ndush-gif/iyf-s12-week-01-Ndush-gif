@@ -13,4 +13,4 @@
 ## Website 3: YouTube (https://youtube.com)
 * **Identify 5 different HTML elements:** `<html>`, `<head>`, `<body>`, `<div>`, and `<script>`.
 * **Find a form element and list its inputs:** The main video search area uses a `<form id="search-form">` action element containing a primary search box input: `<input id="search" type="text" placeholder="Search">`.
-* **Elements panel screenshot:** ![YouTube DevTools Screenshot](Screenshot%202026-09-25%20200221.png)
+* **Elements panel screenshot:** ![YouTube DevTools Screenshot](https://github.com/Ndush-gif/iyf-s12-week-01-Ndush-gif/blob/main/images/Screenshots/Screenshot%202026-09-25%20200221.png)
