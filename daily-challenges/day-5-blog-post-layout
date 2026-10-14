@@ -62,10 +62,10 @@
             <p>This week in my web development course I built my first multi-page portfolio, and I learned that HTML involves both content and structure. Here is what semantic HTML is, why it matters, and what I fixed on my own site.</p>
 
             <h2>Why Semantic HTML Matters</h2>
-            <p>Semantic HTML means using tags that describe what the content is, not just how it looks. A `<nav>` holds navigation, `<main>` holds the main content, and `<footer>` sits at the bottom. Browsers, search engines and screen readers all use these tags to understand a page. A screen reader user can jump straight to the main content instead of listening to everything from the top, and the code is also easier for me to read later.</p>
+            <p>Semantic HTML means using tags that describe what the content is, not just how it looks. A &lt;nav&gt holds navigation, &lt;main&gt holds the main content, and &lt;footer&gt sits at the bottom. Browsers, search engines and screen readers all use these tags to understand a page. A screen reader user can jump straight to the main content instead of listening to everything from the top, and the code is also easier for me to read later.</p>
 
             <h2>A Problem I Fixed</h2>
-            <p>No main landmark. Lighthouse gave me 97/100 and said the document had no main landmark. WAVE showed an alert for “No page regions”. My content sat directly inside `<body>`, so I wrapped it in `<header>`, `<main>` and `<footer>`.</p>
+            <p>No main landmark. Lighthouse gave me 97/100 and said the document had no main landmark. WAVE showed an alert for “No page regions”. My content sat directly inside &lt;body&gt, so I wrapped it in &lt;header&gt, &lt;main&gt and &lt;footer&gt.</p>
 
             <h2>My take away</h2>
             <p>Small structural changes make a real difference, and automated tools only catch part of the problem, so manual checks still matter. Running an audit before and after a fix showed me exactly what each change did.</p>
