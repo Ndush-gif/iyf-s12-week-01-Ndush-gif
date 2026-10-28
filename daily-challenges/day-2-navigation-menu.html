@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 - Navigation Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: navy;
+            padding: 0 1.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-name {
+            color: white;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            display: block;
+            padding: 1rem 0.5rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover,
+        nav a:focus-visible {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav aria-label="Main">
+            <span class="site-name">Catherine Nduku</span>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../projects.html">Projects</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Navigation Menu Challenge</h1>
+        <p>The site name sits on the left and the four links on the right.</p>
+    </main>
+</body>
+</html>
