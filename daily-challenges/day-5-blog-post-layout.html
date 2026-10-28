@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 - Blog Post</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        .meta {
+            color: darkslategray;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        figcaption {
+            font-size: 0.9rem;
+            color: darkslategray;
+        }
+
+        aside {
+            background: lightgray;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <header>
+                <h1>What I Learned About Semantic HTML</h1>
+                <p class="meta">
+                    By Catherine Nduku |
+                    <time datetime="2026-10-14">14 October 2026</time>
+                </p>
+            </header>
+
+            <figure>
+                <img src="https://placehold.co/300x50" alt="Placeholder featured image for the blog post" width="300" height="50">
+            </figure>
+
+            <p>This week in my web development course I built my first multi-page portfolio, and I learned that HTML involves both content and structure. Here is what semantic HTML is, why it matters, and what I fixed on my own site.</p>
+
+            <h2>Why Semantic HTML Matters</h2>
+            <p>Semantic HTML means using tags that describe what the content is, not just how it looks. A &lt;nav&gt holds navigation, &lt;main&gt holds the main content, and &lt;footer&gt sits at the bottom. Browsers, search engines and screen readers all use these tags to understand a page. A screen reader user can jump straight to the main content instead of listening to everything from the top, and the code is also easier for me to read later.</p>
+
+            <h2>A Problem I Fixed</h2>
+            <p>No main landmark. Lighthouse gave me 97/100 and said the document had no main landmark. WAVE showed an alert for “No page regions”. My content sat directly inside &lt;body&gt, so I wrapped it in &lt;header&gt, &lt;main&gt and &lt;footer&gt.</p>
+
+            <h2>My take away</h2>
+            <p>Small structural changes make a real difference, and automated tools only catch part of the problem, so manual checks still matter. Running an audit before and after a fix showed me exactly what each change did.</p>
+        </article>
+
+        <aside aria-labelledby="related-heading">
+            <h2 id="related-heading">Related Posts</h2>
+            <ul>
+                <li><a href="../accessibility-report.md">My Accessibility Report</a></li>
+                <li><a href="../about.html">About Me</a></li>
+                <li><a href="day-3-contact-section.html">Day 3: Contact Section</a></li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
